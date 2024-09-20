@@ -1,0 +1,30 @@
+*{
+    
+    background-repeat: no-repeat;
+    background-color: pink;
+
+}
+img{
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+    width: 580px;
+}
+.container{
+    display: flex;
+}
+button{
+    position: relative;
+    left: 350px;
+    top: 25px;
+    border-radius: 10px;
+    width: 120px;
+    height: 23px;
+    font-weight: 400 ;
+    background-color: orchid;
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: 1s;
+}
